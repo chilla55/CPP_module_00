@@ -6,7 +6,7 @@
 #    By: agrotzsc <agrotzsc@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/01 03:58:29 by agrotzsc          #+#    #+#              #
-#    Updated: 2022/08/09 13:23:34 by agrotzsc         ###   ########.fr        #
+#    Updated: 2022/08/19 10:03:38 by agrotzsc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,7 +34,7 @@ OBJ_DIR			=	obj/
 
 #---- Files -------------------------------------------------------------------#
 
-SOURCES = $(shell find $(SRC_DIR) -name '*.cpp')
+SOURCES = PhoneBook.cpp Contact.cpp main.cpp
 
 #---- Prefix ------------------------------------------------------------------#
 
