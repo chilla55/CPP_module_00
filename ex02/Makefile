@@ -6,7 +6,7 @@
 #    By: agrotzsc <agrotzsc@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/01 03:58:29 by agrotzsc          #+#    #+#              #
-#    Updated: 2022/08/22 09:39:11 by agrotzsc         ###   ########.fr        #
+#    Updated: 2022/08/22 13:12:19 by agrotzsc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,7 +20,7 @@ else
 endif
 
 
-NAME			=	cpp_0_ex02
+NAME			=	ex02
 CC				=	c++
 DEF_COLOR		=	\033[0;39m
 GREEN			=	\033[0;92m
