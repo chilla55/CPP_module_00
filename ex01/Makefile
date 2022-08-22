@@ -6,7 +6,7 @@
 #    By: agrotzsc <agrotzsc@student.42wolfsburg.de> +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/01 03:58:29 by agrotzsc          #+#    #+#              #
-#    Updated: 2022/08/22 13:12:12 by agrotzsc         ###   ########.fr        #
+#    Updated: 2022/08/22 13:26:06 by agrotzsc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,9 @@
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
-    CFLAGS 		=	-g -ggdb -Wall -Wextra -Werror
+    CFLAGS 		=	-g -ggdb -Wall -Wextra -Werror -std=c++98
 else
-	CFLAGS		=	-Wall -Wextra -Werror
+	CFLAGS		=	-Wall -Wextra -Werror -std=c++98
 endif
 
 
